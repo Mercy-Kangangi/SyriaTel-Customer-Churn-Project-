@@ -6,6 +6,9 @@ A machine learning project that uses the SyriaTel Customer Chun dataset. The Mac
 # Business and Data Understanding
 Syriatel is looking for a reliable way to predict customers likely to churn so that the company can take correctve action. Failure to do this may lead to more operational costs being incurred through marketting to engage new customers due to a high churning of existing customers.
 
+## Data Source
+* SyriaTel Customer Churn Dataset- https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset
+
 ## Business Objective
 * Build a classification model that predicts customer churn
 * Identify key drivers of churnProvide actionable insights to reduce customer loss
