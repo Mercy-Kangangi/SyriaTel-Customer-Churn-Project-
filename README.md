@@ -1,7 +1,7 @@
 # SyriaTel-Customer-Churn-Project
 
 # Overview
-A machine learning project that uses the SyriaTel Customer Chun dataset.  Machine learning was used because of complex, multi-feature relationships and the need for prediction. The Machine Learning model will help predict whether a SyriaTel Telecommunications customer is at risk of churning (stop doing business wit the company).The objective is to assist the company in recognizing customers who are at high risk of churning early, allowing them to implement measures to retain them.
+A machine learning project that uses the SyriaTel Customer Chun dataset.  Machine learning was used because of complex, multi-feature relationships and the need for prediction in this business case. The Machine Learning model will help predict whether a SyriaTel Telecommunications customer is at risk of churning (stop doing business wit the company).The objective is to assist the company in recognizing customers who are at high risk of churning early, allowing them to implement measures to retain them.
 
 # Business and Data Understanding
 
