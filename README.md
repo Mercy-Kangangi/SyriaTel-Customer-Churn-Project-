@@ -50,7 +50,26 @@ Before modeling:
 To evaluate model performance, **recall** was selected as the primary metric because:
 
 -It measured how many actual churn customers were correctly identified by the model (our main business objective)
+
 --- The final Decision Tree model was evaluated on holdout test data.---
+
+#### Confusion Matrix
+The confusion matrix below shows how well the Decision Tree model predicts customer churn.
+
+ *536 customers were correctly identified as not churning (true negatives)
+
+ *64 customers were correctly identified as churn risks (true positives)
+
+ *34 customers were incorrectly flagged as churn risks (false positives)
+
+ *33 churn customers were missed by the model (false negatives)
+
+-Because false negatives represent lost customers, the model prioritizes recall. 
+
+<img width="512" height="328" alt="image" src="https://github.com/user-attachments/assets/84ffaf37-6d12-4dd1-a443-fb5693b2977d" />
+
+#### The Decision Tree correctly identifies approximately 66% of customers who will churn, making it useful for proactive retention strategies despite a small number of false positives.
+
 
 # Limitations
 
