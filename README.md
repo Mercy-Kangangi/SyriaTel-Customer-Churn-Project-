@@ -1,7 +1,7 @@
 # SyriaTel-Customer-Churn-Project
 
 # Overview
-A machine learning project that uses the SyriaTel Customer Chun dataset. The Machine Learning model will help predict whether a SyriaTel Telecommunications customer is at risk of churning (stop doing business wit the company).The objective is to assist the company in recognizing customers who are at high risk of churning early, allowing them to implement measures to retain them.
+A machine learning project that uses the SyriaTel Customer Chun dataset.  Machine learning was used because of complex, multi-feature relationships and the need for prediction. The Machine Learning model will help predict whether a SyriaTel Telecommunications customer is at risk of churning (stop doing business wit the company).The objective is to assist the company in recognizing customers who are at high risk of churning early, allowing them to implement measures to retain them.
 
 # Business and Data Understanding
 
@@ -32,7 +32,6 @@ Before modeling:
 4. Train-Test split was performed with stratification to preserve class distribution.
 
 # Modeling
-* Machine learning was used because of complex, multi-feature relationships and the need for prediction
 
 * A Logistic Regression and a Decision Tree model were built and compared
 
@@ -74,6 +73,8 @@ The confusion matrix below shows how well the Decision Tree model predicts custo
 # Limitations
 
 -While the final model performs well, it is limited as it did not include external factors such as 'competitor pricing' or 'promotions'.
+- 33% of churners still undetected (False Negatives in Confusion Matrix)
+
 
 # Recommendations to Stakeholders (Conclusion)
 
