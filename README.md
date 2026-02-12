@@ -16,7 +16,7 @@ Goal of this project is to help Syriatel is looking for a reliable way to predic
 # Data Source
 * SyriaTel Customer Churn Dataset- https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset
 
-## Stakeholders 
+# Stakeholders 
 The primary stakeholders of this project are: 
 
 * Management Team
