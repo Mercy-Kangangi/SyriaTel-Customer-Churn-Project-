@@ -51,9 +51,9 @@ To evaluate model performance, **recall** was selected as the primary metric bec
 
 # Conclusion
 
-> With the Decision Tree model, SyriaTel can now 
+With the Decision Tree model, SyriaTel can now 
 -Target high risk customers likely to churn through sending promotions and offers to retain them.
 -Deploy better customer service strategies to meet the customer needs on time
-- Increase customer retention and hence increase revenue retention
+-Increase customer retention and hence increase revenue retention
 
 
