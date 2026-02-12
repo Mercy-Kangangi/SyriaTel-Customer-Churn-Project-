@@ -32,15 +32,18 @@ Before modeling:
 4. Train-Test split was performed with stratification to preserve class distribution.
 
 # Modeling
+* Machine learning was used because of complex, multi-feature relationships and the need for prediction
 
-- Logistic Regression was used
-- Decision Tree classifier model was used
+* A Logistic Regression and a Decision Tree model were built and compared
 
-### Final Model — Decision Tree Classifier
+- Logistic Regression was first used due to its simplicity and interpretability.
+- Decision Tree model was used then introduced to capture non-linear relationships in customer behavior
+
+### Final Model — Decision Tree Model
+
+-The models were compared iteratively, and the Decision Tree was selected as the final model due to its stronger recall performance on churn customers.
 
 - Chosen as the final model because it achieved stronger "**recall**" on detecting churn customers and appaears to be more reliable compared to the previous model.
-
----
 
 # Evaluation
 
@@ -49,9 +52,14 @@ To evaluate model performance, **recall** was selected as the primary metric bec
 -It measured how many actual churn customers were correctly identified by the model (our main business objective)
 --- The final Decision Tree model was evaluated on holdout test data.---
 
-# Conclusion
+# Limitations
+
+-While the final model performs well, it is limited as it did not include external factors such as 'competitor pricing' or 'promotions'.
+
+# Recommendations to Stakeholders (Conclusion)
 
 With the Decision Tree model, SyriaTel can now 
+
 -Target high risk customers likely to churn through sending promotions and offers to retain them.
 -Deploy better customer service strategies to meet the customer needs on time
 -Increase customer retention and hence increase revenue retention
